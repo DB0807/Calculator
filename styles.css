@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcBody {
+    background-color: grey;
+    height: 550px;
+    width: 400px;
+    border-radius: 8px;
+    display: flex;
+}
