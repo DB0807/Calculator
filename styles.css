@@ -1,4 +1,5 @@
 body {
+    background-color: #f6f6f6;
     margin: 0;
     height: 100vh;
     display: flex;
@@ -7,9 +8,55 @@ body {
 }
 
 .calcBody {
-    background-color: grey;
-    height: 550px;
-    width: 400px;
-    border-radius: 8px;
+    background-color: #aaa;
+    border: 2px solid black;
+    height: 500px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 12px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.display {
+    background-color: #f6f6f6;
+    border: 2px solid #1B1B1B;
+    height: 120px;
+    width: 100%;
+    margin: 0 0 20px;
+    border-radius: 8px;
+}
+
+.clear {
+    background-color: #FF91A4;
+    width: 150px;
+    padding: 10px;
+    align-self: flex-end;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    flex: auto;
+}
+
+button {
+    font-size: 20px;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 6px;
+    width: 75px;
+    border: 2px solid #1B1B1B;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(0.9);
+  }
+
+  button:active {
+    filter: brightness(0.8);
+  }
