@@ -28,6 +28,19 @@ body {
     border-radius: 8px;
 }
 
+.numRow {
+    font-family: 'DS-Digital', sans-serif;
+    font-size: 42px;
+    height: 50px;
+    width: 300px;
+    text-align: right;
+    margin: auto;
+}
+
+.numRowTop {
+    margin-bottom: 20px;
+}
+
 .clear {
     background-color: #FF91A4;
     width: 150px;
