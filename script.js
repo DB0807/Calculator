@@ -16,6 +16,9 @@ const operations = {
 function operate (no1, no2, op) {
     totalNum = operations[op](no1,no2)
     displayNum = ''
+    if (totalNum.toString().length > 9) {
+        totalNum = display.textContent = 'Error: Big';
+      }
     display.textContent = totalNum
     currentNum = 'stop'
 }
@@ -68,3 +71,5 @@ equals.addEventListener ('click', () => {
     }
     else currentNum !== 'stop' ? operate (totalNum, currentNum, operator) : false;
 })
+
+//could add errors object to display different errors?
